@@ -19,37 +19,5 @@ spec:
             - containerPort: 8080
           env:
           - name: "PORT"
-            value: "3000"
-        #     secretKeyRef:
-        #       key:  port
-        #       name: {{ .Release.Name }}-auth
-        # - name: "DB_USER"
-        #   valueFrom:
-        #     secretKeyRef:
-        #       key:  dbUser
-        #       name: {{ .Release.Name }}-auth
-        # - name: "DATABASE_PASSWORD"
-        #   valueFrom:
-        #     secretKeyRef:
-        #       key:  databasePassword
-        #       name: {{ .Release.Name }}-auth
-        # - name: "DB_HOST"
-        #   valueFrom:
-        #     secretKeyRef:
-        #       key:  dbHost
-        #       name: {{ .Release.Name }}-auth
-        # - name: "DB_DATABASE"
-        #   valueFrom:
-        #     secretKeyRef:
-        #       key:  database
-        #       name: {{ .Release.Name }}-auth
-        # - name: "DB_PORT"
-        #   valueFrom:
-        #     secretKeyRef:
-        #       key:  dbPort
-        #       name: {{ .Release.Name }}-auth
-        # - name: "NODE_ENV"
-        #   valueFrom:
-        #     secretKeyRef:
-        #       key:  nodeEnv
-        #       name: {{ .Release.Name }}-auth
+            value: {{ .Values.env.port }}
+
