@@ -80,6 +80,4 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-env:
-  port: 3000
 

@@ -19,5 +19,5 @@ spec:
             - containerPort: 8080
           env:
           - name: "PORT"
-            value: {{ .Values.env.port }}
+            value: "3000"
 
