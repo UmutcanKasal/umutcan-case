@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: node-food-api
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/onurbilginnn/argo-helm.git
+    targetRevision: main
+    path: ./charts/
+    helm:
+      values: |
+        replicaCount: 2
+        service:
+          port: 8081
+          targetPort: 8081
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  syncPolicy:
+    automated: {}
