@@ -8,7 +8,7 @@ image:
   repository: umutcan143/umutcan-case-study
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "prod"
+  tag: "test"
 
 imagePullSecrets: []
 nameOverride: ""
