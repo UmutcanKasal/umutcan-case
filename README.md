@@ -11,4 +11,4 @@
 #     To reach out my ARGOCD panel : 34.118.110.23   ID = admin  Pass=Umutcan143
 
 #     URLs=https://github.com/UmutcanKasal/umutcan-case.git
-#          https://hub.docker.com/repository/docker/umutcan143/umutcan-case-study/general>
+#          https://hub.docker.com/repository/docker/umutcan143/umutcan-case-study/general
