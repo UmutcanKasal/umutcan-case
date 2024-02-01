@@ -8,7 +8,7 @@
 #     To be honest, nowadays I'm participating in kind of busy project thats why I was able to spare that much time on that case.
 #     Thank you. 
 
-#     To reach out my ARGOCD panel : 34.118.110.23   ID = admin  Pass=Umutcan143
+#     To reach out my ARGOCD panel : 34.118.110.23   ID = admin
 
 #     URLs=https://github.com/UmutcanKasal/umutcan-case.git
 #          https://hub.docker.com/repository/docker/umutcan143/umutcan-case-study/general
